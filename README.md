@@ -1,6 +1,6 @@
 # MCP ESPN
 
-A Model Context Protocol (MCP) server for accessing ESPN NBA API endpoints.
+A Model Context Protocol (MCP) server for accessing ESPN NBA API endpoints, built with TypeScript.
 
 ## Features
 
@@ -17,8 +17,12 @@ This MCP server provides access to ESPN's NBA API endpoints including:
 
 ```bash
 npm install
-npm run build
 ```
+
+## Requirements
+
+- Node.js 16+ 
+- TypeScript 5.0+
 
 ## Usage
 
@@ -55,10 +59,14 @@ Get NBA news.
 ## Development
 
 ```bash
-npm run dev  # Watch mode for development
-npm run build  # Build the project
-npm start  # Run the server
+npm run dev    # Watch mode for development (uses tsx)
+npm start      # Run the compiled server (uses tsx)
 ```
+
+The project uses:
+- **TypeScript** for type safety and better development experience
+- **tsx** for running TypeScript files directly during development
+- **ES modules** for modern JavaScript module system
 
 ## API Endpoints
 

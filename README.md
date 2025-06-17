@@ -76,8 +76,7 @@ Get NBA news.
 ## Development
 
 ```bash
-npm run dev    # Watch mode for development (uses tsx)
-npm start      # Run the compiled server (uses tsx)
+npm start      # Run the server (uses tsx)
 ```
 
 The project uses:

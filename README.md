@@ -24,6 +24,23 @@ npm install
 - Node.js 16+ 
 - TypeScript 5.0+
 
+## Configuration
+
+Add this to your MCP client configuration (e.g., Claude Desktop):
+
+```json
+"espn-mcp": {
+    "command": "/usr/local/bin/npx",
+    "args": [
+        "-y",
+        "tsx",
+        "/path/to/your/mcp-espn/src/index.ts"
+    ]
+}
+```
+
+Replace `/path/to/your/` with the actual path to where you cloned this repository.
+
 ## Usage
 
 The server provides the following tools:

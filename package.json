@@ -1,0 +1,25 @@
+{
+  "name": "mcp-espn",
+  "version": "1.0.0",
+  "description": "MCP server for ESPN NBA API endpoints",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx --watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["mcp", "espn", "nba", "basketball", "api"],
+  "author": "",
+  "license": "MIT"
+}

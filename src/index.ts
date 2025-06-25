@@ -103,7 +103,8 @@ server.registerTool('espn_nba_roster', {
   if (!args?.team) {
     throw new McpError(ErrorCode.InvalidParams, 'Team parameter is required');
   }
-  const url = `${BASE_URL}/${args.team}/roster`;
+  const url = `${BASE_URL}/teams/${args.team}/roster`;
+  console.log('Fetching roster for team:', url);
   const data = await fetchEspnData(url);
   return {
     content: [
